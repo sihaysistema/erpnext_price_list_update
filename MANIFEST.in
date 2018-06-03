@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erpnext_price_list_update *.css
+recursive-include erpnext_price_list_update *.csv
+recursive-include erpnext_price_list_update *.html
+recursive-include erpnext_price_list_update *.ico
+recursive-include erpnext_price_list_update *.js
+recursive-include erpnext_price_list_update *.json
+recursive-include erpnext_price_list_update *.md
+recursive-include erpnext_price_list_update *.png
+recursive-include erpnext_price_list_update *.py
+recursive-include erpnext_price_list_update *.svg
+recursive-include erpnext_price_list_update *.txt
+recursive-exclude erpnext_price_list_update *.pyc
